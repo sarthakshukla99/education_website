@@ -1,0 +1,56 @@
+@media only screen and (max-width:1140px){
+    .navlist{
+        flex-direction: column;
+    }
+
+    .logo{
+        width:20% ;
+    }
+
+    .navbar{
+        flex-direction: column;
+        height:377px;
+        transition: all 0.7s ease-out;
+    }
+
+    .rightNav{
+        flex-direction: column;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search{
+        width: 100%;
+    }
+    .burgur{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 67px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .section{
+        flex-direction: column-reverse;
+    }
+
+    .textcenter{
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .secondHalf{
+        width: 24%;
+    }
+
+    .paras{
+        padding: 0px;
+    }
+}
